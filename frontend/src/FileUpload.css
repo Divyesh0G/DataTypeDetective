@@ -1,0 +1,141 @@
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  animation: moveGradient 10s linear infinite alternate;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+.header {
+  text-align: center;
+  color: #333;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-file-upload {
+  border: 2px solid #007bff;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #007bff;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.remove-button,
+.upload-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover,
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.upload-button.uploading {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.error {
+  margin-top: 20px;
+  text-align: center;
+  color: #ff0000;
+}
+
+.response-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.top-row th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+}
+
+.even-row {
+  background-color: #f9f9f9;
+}
+
+.odd-row {
+  background-color: #ffffff;
+}
+
+.modify-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #28a745;
+  transition: background-color 0.3s ease;
+}
+
+.modify-button:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .custom-file-upload {
+    font-size: 14px;
+  }
+
+  .remove-button,
+  .upload-button,
+  .modify-button {
+    font-size: 14px;
+  }
+}

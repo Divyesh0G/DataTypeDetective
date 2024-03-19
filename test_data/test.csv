@@ -1,0 +1,11 @@
+id,name,age,weight,height,join_date,is_active,category,complex_number
+1,John,25,70.5,175.2,2022-01-01,True,A,3.5+2.7j
+2,Alice,30,62.3,163.5,2022-02-15,False,B,4.2-1.8j
+3,Bob,28,80.0,180.0,2022-03-20,True,C,2.9+5.4j
+4,Sarah,33,65.8,167.8,2022-04-10,False,D,1.6-3.2j
+5,Emily,29,68.2,172.3,2022-05-05,True,E,3.8+0.9j
+6,Michael,31,75.6,178.9,2022-06-08,False,F,4.5-2.1j
+7,Jessica,27,58.9,160.4,2022-07-12,True,G,2.2+1.3j
+8,Daniel,35,85.2,185.6,2022-08-25,False,H,3.1-4.5j
+9,Laura,26,63.4,165.9,2022-09-30,True,I,4.6+3.7j
+10,Matthew,32,72.0,177.3,2022-10-15,False,J,2.5-0.8j
